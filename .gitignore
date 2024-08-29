@@ -9228,9 +9228,6 @@ documentation/
 !go.sum
 !go.mod
 
-!README.md
-!LICENSE
-
 # !Makefile
 
 # ...even if they are in subdirectories
@@ -10571,7 +10568,6 @@ logtalk_doclet_logs/
 *.sig
 
 pkg/
-src/
 
 ### Spark template
 *#*#
@@ -16271,7 +16267,6 @@ bin-release/
 ### Gradle template
 .gradle
 **/build/
-!src/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
